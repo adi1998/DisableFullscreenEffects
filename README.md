@@ -1,5 +1,6 @@
 ## Disable Fullscreen Effects
-Disables fullscreen effects like radial blur and bloom. Can be configured to toggle blur and bloom through r2modman config editor.
+Disables fullscreen effects like radial blur and bloom. This doesn't capture every such effect since some hardcoded into the animations.
+Can be configured to toggle blur and bloom through the r2modman config editor.
 
 ## Installation
 
