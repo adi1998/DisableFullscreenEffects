@@ -7,4 +7,4 @@ Use r2modman by ebkr from [Thunderstore](https://thunderstore.io/package/ebkr/r2
 
 ## Issues and feedback
 
-Report any issues or feedback [here](/issues) or on [Hades Modding Discord](https://discord.gg/bKvJTAJj)
+Report any issues or feedback [here](https://github.com/adi1998/DisableFullscreenEffects/issues) or on [Hades Modding Discord](https://discord.gg/bKvJTAJj)
