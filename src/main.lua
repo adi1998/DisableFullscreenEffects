@@ -53,17 +53,27 @@ local function on_ready()
         base(args)
     end)
 
+    local excludedBloomList = game.ToLookup({
+        "Flashback03TransitionB",
+        "Menu"
+    })
+
     modutil.mod.Path.Wrap("AdjustFullscreenBloom", function (base, args)
         args = args or {}
-        if config.disable_bloom and args.Name ~= "Off" then args.Name = "Off" end
+        if config.disable_bloom and not (args.Name and excludedBloomList[args.Name]) then args.Name = "Off" end
         base(args)
     end)
+
+    -- game.OnControlPressed({'Gift', function()
+    --     mod.TestBloom()
+    -- end})
 end
 
 local function on_reload()
     -- what to do when we are ready, but also again on every reload.
     -- only do things that are safe to run over and over.
     if config.enabled == false then return end
+    import 'reload.lua'
 end
 
 -- this allows us to limit certain functions to not be reloaded.
