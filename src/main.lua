@@ -63,6 +63,13 @@ local function on_ready()
         base(args)
     end)
 
+    modutil.mod.Path.Wrap("DoWeaponHitSimulationSlow", function (base, ...)
+        if config.disable_hitstop then
+            return
+        end
+        return base(...)
+    end)
+
     -- game.OnControlPressed({'Gift', function()
     --     mod.TestBloom()
     -- end})
