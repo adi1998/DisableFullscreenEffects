@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Add option to disable mouse camera tether
+
 ## [0.2.0] - 2026-06-04
 
 - Add option to disable hitstop

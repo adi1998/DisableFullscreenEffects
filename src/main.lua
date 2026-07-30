@@ -70,6 +70,13 @@ local function on_ready()
         return base(...)
     end)
 
+    modutil.mod.Path.Wrap("SetConfigOption", function (base, args)
+         if args.Name == "ZeroMouseTether" and config.disable_mouse_follow then
+            args.Value = true
+        end
+        return base(args)
+    end)
+
     -- game.OnControlPressed({'Gift', function()
     --     mod.TestBloom()
     -- end})
