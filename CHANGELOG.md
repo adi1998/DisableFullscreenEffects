@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Update description
+
 ## [0.3.0] - 2026-07-30
 
 - Add option to disable mouse camera tether
