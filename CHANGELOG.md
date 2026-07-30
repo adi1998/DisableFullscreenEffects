@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-07-30
+
 - Add option to disable mouse camera tether
 
 ## [0.2.0] - 2026-06-04
@@ -12,6 +14,7 @@
 
 - First version of the mod
 
-[unreleased]: https://github.com/adi1998/DisableFullscreenEffects/compare/0.2.0...HEAD
+[unreleased]: https://github.com/adi1998/DisableFullscreenEffects/compare/0.3.0...HEAD
+[0.3.0]: https://github.com/adi1998/DisableFullscreenEffects/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/adi1998/DisableFullscreenEffects/compare/0.1.0...0.2.0
 [0.1.0]: https://github.com/adi1998/DisableFullscreenEffects/compare/cbea72f103b29ad34942e66654f75759eec7ff1d...0.1.0
