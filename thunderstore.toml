@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "zerp"
 name = "DisableFullscreenEffects"
 versionNumber = "0.2.0"
-description = "Disables fullscreen effects like radial blur and bloom. Now also disables most hitstop effects."
+description = "Disables fullscreen effects like radial blur, bloom and most hitstop effects. Also has the option to disable the mouse camera tether."
 websiteUrl = "https://github.com/adi1998/DisableFullscreenEffects"
 containsNsfwContent = false
 
