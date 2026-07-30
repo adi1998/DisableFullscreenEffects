@@ -1,7 +1,7 @@
 ## Disable Fullscreen Effects
-Disables fullscreen effects like radial blur, bloom and hitstop. This doesn't capture every such effect since some are hardcoded into the animation data.
+Disables fullscreen effects like radial blur, bloom and hitstop. Also has the option to disable the "camera following the mouse" effect. This doesn't capture every such effect since some are hardcoded into the animation data.
 
-Can be configured to toggle blur, bloom and hitstop through the r2modman config editor.
+Can be configured to toggle blur, bloom, hitstop and camera-mouse tether through the r2modman config editor.
 
 ## Installation
 
